@@ -1,2 +1,2 @@
 #支持指定架构
---platform=linux/amd64 nginx
+--platform=linux/amd64 ghcr.io/huggingface/text-generation-inference:2.1.0
