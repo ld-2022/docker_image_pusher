@@ -1,3 +1,2 @@
 #支持指定架构
---platform=linux/amd64 golang:1.22.5
---platform=linux/arm64 golang:1.22.5
+--platform=linux/amd64 isafetech/chatchat:0.2.10
