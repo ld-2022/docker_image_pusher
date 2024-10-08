@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 amake/innosetup:latest
+--platform=linux/amd64 apache/hertzbeat:nightly
