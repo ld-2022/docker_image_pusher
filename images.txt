@@ -1,7 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 openwrt/sdk:x86-generic-23.05.5
---platform=linux/amd64 openwrt/sdk:aarch64_generic-23.05.5
---platform=linux/amd64 openwrt/sdk:aarch64_cortex-a53-23.05.5
---platform=linux/amd64 openwrt/sdk:aarch64_cortex-a72-23.05.5
---platform=linux/amd64 openwrt/sdk:mips_24kc-23.05.5
---platform=linux/amd64 openwrt/sdk:mipsel_24kc-23.05.5
+--platform=linux/amd64 jenkins/jenkins:lts-jdk17
