@@ -1,2 +1,3 @@
 #支持指定架构 
---platform=linux/amd64 jenkins/jenkins:lts-jdk17
+--platform=linux/amd64 victoriametrics/victoria-metrics:v1.95.1
+--platform=linux/amd64 postgresql:15
