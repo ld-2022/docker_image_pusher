@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 vllm/vllm-openai:v0.5.3
+--platform=linux/amd64 ghcr.io/ggerganov/llama.cpp:full-cuda
