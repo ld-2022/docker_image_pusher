@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 ghcr.io/ggerganov/llama.cpp:full-cuda
+--platform=linux/amd64 golang:1.23.2
