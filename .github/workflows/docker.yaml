@@ -163,8 +163,7 @@ jobs:
         body: |
            {
               "msgtype": "text",
-               "link": {
-                   "text": "镜像已推送到阿里云私有服务",
-                   "title": "镜像推送通知",
+               "text": {
+                    "content":"镜像推送完毕"
                 }
            }
