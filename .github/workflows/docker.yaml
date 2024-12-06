@@ -155,3 +155,16 @@ jobs:
             echo "=============================================================================="     
             
         done < images.txt
+    - name: Send dingding notify
+    uses: zcong1993/actions-ding@master
+    with:
+        dingToken: ${{ secrets.DING_TOKEN }}
+        secret: ${{ secrets.DING_SECRET }} # if secret set, action will call API with sign
+        body: |
+        {
+            "msgtype": "text",
+            "link": {
+                "text": "镜像已推送到阿里云私有服务",
+                "title": "镜像推送通知",
+            }
+        }
