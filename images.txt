@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 oliver006/redis_exporter
+--platform=linux/amd64 prom/alertmanager:v0.27.0
