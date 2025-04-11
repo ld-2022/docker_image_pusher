@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 tomcat:9-jdk8
+--platform=linux/amd64 golang:1.20
