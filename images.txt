@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.9.1-dev
+--platform=linux/amd64 ghcr.io/ggml-org/llama.cpp:full
