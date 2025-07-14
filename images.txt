@@ -1,2 +1,2 @@
 #支持指定架构 
---platform=linux/amd64 quay.io/ascend/vllm-ascend:v0.9.2rc1
+--platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.9.2rc1
